@@ -8,6 +8,15 @@ body {
     box-sizing: border-box;
 }
 
+.section-dark {
+    background: #F2F3F7;
+}
+
+.container-content {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 p, ul {
     margin: 0;
     padding: 0;
@@ -27,13 +36,36 @@ input {
     padding: 10px 55px;
     text-transform: uppercase;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .main-header img {
     margin-right: 12px;
 }
 
-header {
+.show-more-button {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.show-more-button button {
+    background: #FF293E;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 13px 20px;
+    border: navajowhite;
+    outline: none;
+    cursor: pointer;
+}
+
+.show-more-button button:hover {
+    background: #55627E;
+}
+
+.header-container {
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -103,7 +135,7 @@ nav .nav-list {
     display: flex;
     justify-content: space-between;
     margin: 0;
-    padding: 10px 0;
+    padding: 10px 55px;
 }
 
 nav .nav-list li {
@@ -115,6 +147,7 @@ nav .nav-list li a {
     font-weight: 600;
     color: #ffffff;
     line-height: 30px;
+    font-size: 14px;
 }
 
 nav .nav-list li a:hover {
@@ -148,21 +181,22 @@ nav .nav-list li a:hover {
 }
 
 .carousel-wrapper {
-    max-width: 1200px;
+    max-width: 1070px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     box-sizing: border-box;
-    margin: 0 auto;
-    padding: 50px;
-    margin-bottom: 50px;
+    padding: 0 50px;
+    margin: 70px auto 55px auto;
 }
 
 .carousel-wrapper img {
-    width: 50%;
+    width: calc(50% - 15px);
 }
 
 .carousel-wrapper .carousel-content {
-    width: calc(50% - 30px);
+    width: calc(50% - 15px);
     margin-left: 30px;
 }
 
@@ -187,17 +221,22 @@ nav .nav-list li a:hover {
     line-height: 24px;
 }
 
+.sites-container {
+    background: #F2F3F7;
+}
+
 .sites-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     background: #F2F3F7;
     padding: 40px 55px;
+    margin-top: 20px;
 }
 
 .sites-list li {
-    width: calc(100% / 7 - 55px);
-    min-width: 160px;
+    max-width: 120px;
+    min-width: 120px;
     list-style: none;
 }
 
@@ -210,15 +249,20 @@ nav .nav-list li a:hover {
     padding-top: 55px;
 }
 
+.section-dark {
+    background: #F2F3F7;
+    padding: 40px 55px;
+    margin-top: 20px;
+}
+
 .section-employee-hero {
     position: relative;
     width: 700px;
     height: 145px;
     display: flex;
-    margin: 0 auto;
     background: #ECF3FB;
     border-radius: 10px;
-    margin-bottom: 55px;
+    margin: 55px auto;
 }
 
 .section-employee-hero img {
@@ -243,24 +287,40 @@ nav .nav-list li a:hover {
     margin-bottom: 16px;
 }
 
+.section-gallery {
+    margin-top: 55px;
+}
 
+.section-gallery .base-list li {
+    width: 270px;
+}
 
+.section-gallery .base-list li img {
+    max-width: 270px;
+}
 
 .base-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 40px 55px;
+    padding: 0 55px;
     font-size: 14px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.base-list.base-list-align-center li {
+    text-align: center;
 }
 
 .base-list li {
-    width: calc(100% / 6 - 55px);
-    min-width: 200px;
+    width: 170px;
     list-style: none;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .base-list li img {
+    max-width: 130px;
     width: 100%;
 }
 
@@ -270,13 +330,18 @@ nav .nav-list li a:hover {
 
 .base-list li .header {
     font-weight: 600;
-    color: #000;
     margin-top: 15px;
+    color: #000;
+}
 
+.base-list li .header:hover {
+    color: #FF293E;
 }
 
 .base-list li .subheader {
-    font-weight: 400;
-    color: #000;
+    font-weight: 500;
     margin-top: 12px;
+    line-height: 24px;
+    margin-bottom: 11px;
+    color: #000;
 }
