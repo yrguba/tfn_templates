@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.section-dark {
+    background: #F2F3F7;
+}
+
+.container-content {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 55px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.main-header img {
+    margin-right: 12px;
+}
+
+.show-more-button {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.show-more-button button {
+    background: #FF293E;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 13px 20px;
+    border: navajowhite;
+    outline: none;
+    cursor: pointer;
+}
+
+.show-more-button button:hover {
+    background: #55627E;
+}
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.custom-checkbox .checkbox {
+    display: flex;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #BFC4CE;
+    border-radius: 4px;
+    margin-right: 14px;
+}
+
+.custom-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + span.checkbox  {
+    border: none;
+    background: #FF293E url(../images/icons/checkbox-arrow.svg) 50% 50% no-repeat;
+}
+
+.base-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 55px;
+    font-size: 14px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.base-list.base-list-align-center li {
+    text-align: center;
+}
+
+.base-list li {
+    width: 170px;
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.base-list li img {
+    max-width: 130px;
+    width: 100%;
+}
+
+.base-list li a {
+    text-decoration: none;
+}
+
+.base-list li .base-list__header {
+    font-weight: 600;
+    margin-top: 15px;
+    color: #000;
+}
+
+.base-list li .base-list__header:hover {
+    color: #FF293E;
+}
+
+.base-list li .base-list__subheader {
+    font-weight: 500;
+    margin-top: 12px;
+    line-height: 24px;
+    margin-bottom: 11px;
+    color: #000;
+}
+
+.base-list li .base-list__date {
+    font-weight: 400;
+    line-height: 24px;
+    margin: 10px 0;
+    color: #55627E;
+}
+
+footer {
+    text-align: center;
+    background: #293240;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 34px;
+    padding: 35px 0;
+    margin-top: 55px;
+}

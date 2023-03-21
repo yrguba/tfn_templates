@@ -1,69 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.section-dark {
-    background: #F2F3F7;
-}
-
-.container-content {
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
-p, ul {
-    margin: 0;
-    padding: 0;
-}
-
-ul li {
-    list-style: none;
-}
-
-input {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.main-header {
-    display: flex;
-    align-items: center;
-    padding: 10px 55px;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-
-.main-header img {
-    margin-right: 12px;
-}
-
-.show-more-button {
-    text-align: center;
-    margin: 30px 0;
-}
-
-.show-more-button button {
-    background: #FF293E;
-    border-radius: 6px;
-    color: #fff;
-    font-size: 15px;
-    font-weight: 700;
-    padding: 13px 20px;
-    border: navajowhite;
-    outline: none;
-    cursor: pointer;
-}
-
-.show-more-button button:hover {
-    background: #55627E;
-}
-
 .header-container {
     width: 100%;
     position: relative;
@@ -296,52 +230,32 @@ nav .nav-list li a:hover {
 }
 
 .section-gallery .base-list li img {
+    width: 100%;
     max-width: 270px;
 }
 
-.base-list {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 55px;
-    font-size: 14px;
-    margin-left: -15px;
-    margin-right: -15px;
+.section-news {
+    margin-top: 55px;
 }
 
-.base-list.base-list-align-center li {
-    text-align: center;
+.section-news .base-list li {
+    width: 369px;
 }
 
-.base-list li {
-    width: 170px;
-    list-style: none;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.base-list li img {
-    max-width: 130px;
+.section-news .base-list li img {
     width: 100%;
+    max-width: 369px;
 }
 
-.base-list li a {
-    text-decoration: none;
+.section-news .news-filters {
+    display: flex;
+    padding: 20px 55px;
 }
 
-.base-list li .header {
-    font-weight: 600;
-    margin-top: 15px;
-    color: #000;
+.section-news .news-filters .news-filter {
+    min-width: 170px;
 }
 
-.base-list li .header:hover {
-    color: #FF293E;
-}
+footer {
 
-.base-list li .subheader {
-    font-weight: 500;
-    margin-top: 12px;
-    line-height: 24px;
-    margin-bottom: 11px;
-    color: #000;
 }
