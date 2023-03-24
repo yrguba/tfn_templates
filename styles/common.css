@@ -45,7 +45,7 @@ input {
 
 .show-more-button {
     text-align: center;
-    margin: 30px 0;
+    margin: 40px 0;
 }
 
 .show-more-button button {
@@ -150,4 +150,116 @@ footer {
     line-height: 34px;
     padding: 35px 0;
     margin-top: 55px;
+}
+
+.employee-card-sm {
+    display: flex;
+    align-items: center;
+}
+
+.employee-card-sm a {
+    color: #000;
+}
+
+.employee-card-sm .employee-card-sm__info {
+    margin-left: 20px;
+}
+
+.employee-card-sm .employee-card-sm__img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.employee-card-sm .employee-card-sm__name {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.employee-card-sm .employee-card-sm__name:hover {
+    color: #FF293E;
+}
+
+.employee-card-md {
+    width: 170px;
+}
+
+.employee-card-md.employee-card-md-center {
+    text-align: center;
+}
+
+.employee-card-md.employee-card-md-center .employee-card-md__img {
+    margin: 0 auto;
+}
+
+.employee-card-md a {
+    color: #000;
+}
+
+.employee-card-md.employee-card-md-add .employee-card-md__img {
+    cursor: pointer;
+}
+
+.employee-card-md .employee-card-md__img {
+    width: 130px;
+    height: 130px;
+    border-radius: 5px;
+}
+
+.employee-card-md .employee-card-md__name {
+    font-weight: 600;
+    font-size: 14px;
+    margin: 15px 0 4px;
+}
+
+.employee-card-md .employee-card-md__birthday {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.employee-card-md .employee-card-md__name:hover {
+    color: #FF293E;
+}
+
+.employee-card-md .employee-card-md__post {
+    font-size: 12px;
+}
+
+.gallery-card a {
+    color: #000000;
+}
+
+.gallery-card .gallery-card__img {
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.gallery-card .gallery-card__title {
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.news-card a {
+    color: #000000;
+}
+
+.news-card .news-card__img {
+    width: 370px;
+    height: 208px;
+    border-radius: 10px;
+}
+
+.news-card .news-card__date {
+    margin-top: 10px;
+    color: #55627E;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.news-card .news-card__title {
+    font-weight: 500;
+    line-height: 24px;
 }

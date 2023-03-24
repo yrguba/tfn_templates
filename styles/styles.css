@@ -253,9 +253,6 @@ nav .nav-list li a:hover {
 }
 
 .section-news .news-filters .news-filter {
-    min-width: 170px;
+    min-width: 130px;
 }
 
-footer {
-
-}
